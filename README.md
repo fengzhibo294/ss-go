@@ -1,15 +1,24 @@
 # ss-go
-the go language version of SS (Conference's message forwarding server)
+
+the go language version of SS (Conference's message forwarding server)<br>
 
 
-1)about    program structure:
-package config  #define  util  variable and comm funct
-package sslog   #potting   std library " log"
-package socket  #most import architecture code
-package  db2mysql #potting mysql's api 
-package module #proxy forwarding module implementation 
-ss_server.go  #the entrance of ss-go
+## about   program structure<br>
+*package config:<br>
+    -define  util  variable and comm funct<br>
+*package sslog:   
+    -potting  std  log library  
+*package socket: <br>
+    -most import architecture code<br>
+*package  db2mysql:<br>
+    -potting mysql's api<br>
+*package module: <br>
+    -proxy forwarding module implementation<br>
+*ss_server.go: <br>
+    -the entrance of ss-go<br>
 
-2)build and run
-go build ss_server.go #will create a  executable file named ss_server  at this current directory of centos
-go run ss_server.go #run ss-go program as foreground
+## build and run<br>
+*go build ss_server.go   <br>
+-will create a  executable file named ss_server  at this current directory of centos<br>
+*go run ss_server.go<br>
+-run ss-go program as foreground<br>
