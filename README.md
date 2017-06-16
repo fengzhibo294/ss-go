@@ -6,8 +6,8 @@ the go language version of SS (Conference's message forwarding server)<br>
 ## about   program structure<br>
 *package config:<br>
     -define  util  variable and comm funct<br>
-*package sslog:   
-    -potting  std  log library  
+*package sslog:<br>   
+    -potting  std  log library<br>  
 *package socket: <br>
     -most import architecture code<br>
 *package  db2mysql:<br>
